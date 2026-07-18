@@ -252,9 +252,9 @@ Style: Atmospheric, introspective, gently melancholic but hopeful
 > 새벽 도시를 바라보는 남성의 측면 프로필 — 콜드 블루 무드의 시네마틱 키비주얼 및 모션 영상 확보, 공허하고 잔잔한 새벽 BGM 생성
 
 **생성 결과 파일명**
-- 이미지: `scene01_keyvisual.jpg`
-- 비디오: `scene01_video.mp4`
-- 오디오: `scene01_bgm.mp3`
+- 이미지: `scene01_keyvisual_v1.jpg`
+- 비디오: `scene01_video_v1.mp4`
+- 오디오: `scene01_bgm_v1.mp3`
 
 ---
 
@@ -314,8 +314,8 @@ Steam and pour are the main focus.
 > 새벽 창가에서 커피를 따르는 손 클로즈업 — 김이 피어오르는 시네마틱 영상 확보
 
 **생성 결과 파일명**
-- 이미지: `scene02_keyvisual.jpg`
-- 비디오: `scene02_video.mp4`
+- 이미지: `scene02_keyvisual_v1.jpg`
+- 비디오: `scene02_video_v1.mp4`
 
 ---
 
@@ -394,9 +394,9 @@ Cinematic, 35mm film style, melancholic and quiet mood.
 > 커피잔을 든 채 도시 스카이라인을 바라보는 실루엣 — 콜드 블루 톤 시네마틱 영상 확보, 나레이션('매일 새벽, 그래도 일어나는 사람들에게. MORN.') 생성
 
 **생성 결과 파일명**
-- 이미지: `scene03_keyvisual.png`
-- 비디오: `scene03_video.mp4`
-- 오디오: `scene03_voice.wav`
+- 이미지: `scene03_keyvisual_v1.png`
+- 비디오: `scene03_video_v1.mp4`
+- 오디오: `scene03_voice_v1.wav`
 
 ---
 
