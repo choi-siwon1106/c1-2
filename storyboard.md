@@ -11,7 +11,7 @@
 | **타겟** | 25~35세 도시 직장인 |
 | **톤앤매너** | 시네마틱, 절제된 감성, 현실적 공감 |
 | **USP** | "하루의 첫 감각을 설계한다." |
-| **브랜드 컬러/비주얼 키워드** | 콜드 블루 새벽 -> 웜 앰버 전환, 고요한 침실, 도시 스카이라인, 김이 오르는 커피잔 |
+| **브랜드 컬러/비주얼 키워드** | 콜드 블루 새벽, 고요한 침실, 도시 스카이라인, 김이 오르는 커피잔 |
 
 ---
 
@@ -30,18 +30,15 @@
 
 | 카테고리 | 메인 도구 | 대체 도구 | 사용 목적 |
 |----------|-----------|-----------|-----------|
-| **이미지 생성** | (예: Midjourney) | (예: Leonardo.ai) | (예: 키비주얼 생성) |
-| **비디오 변환** | (예: Kling) | (예: Runway / Pika) | (예: 이미지→모션 변환) |
-| **BGM / 효과음** | (예: Suno) | (예: Udio) | (예: 배경음악 생성) |
-| **음성 합성** | (예: ElevenLabs) | (예: TypeCast) | (예: 내레이션 생성) |
-| **통합 편집** | (예: CapCut) | (예: Premiere Pro) | (예: 컷편집 / 자막) |
+| **이미지 생성** | Bing Image Creator | Midjourney | 키비주얼 생성 |
+| **비디오 변환** | Runway | Kling Ai | 이미지→모션 변환 |
+| **BGM / 효과음** | Suno | Udio | 배경음악 생성 |
+| **내래이션** | Vrew Ai | ElevenLabs | 예: 내레이션 생성 |
+| **통합 편집** | CapCut | Adobe Premiere Pro | 컷편집 / 자막 |
 
 ---
 
 ## 4. 씬 구성 (Scene Breakdown)
-
-> 💡 씬은 필요에 따라 복사해서 추가하세요.
-> 전체 씬 길이 합계가 **10초 이내**가 되도록 구성하세요.
 
 ---
 
@@ -66,8 +63,8 @@
 | 카테고리 | 도구명 | 사용 목적 |
 |----------|--------|-----------|
 | 이미지 | Bing Image Creator | 새벽 침실 키비주얼 생성 |
-| 비디오 | Runway Gen-4 Turbo | (예: 정지이미지에 줌인 모션 추가) |
-| 오디오 | (도구명) | 잔잔하고 공허한 새벽 무드 BGM 생성 |
+| 비디오 | Runway Gen-4 Turbo | 콜드 블루 무드의 시네마틱 영상 확보 |
+| 오디오 | Suno | 잔잔하고 공허한 새벽 무드 BGM 생성 |
 
 **입력 프롬프트 (원문)**
 - 이미지 생성 :
@@ -104,15 +101,27 @@ Only the man's head and the city outside are moving.
 Extremely slow motion feel, melancholic and quiet mood.
 Cold blue tones only, cinematic, 35mm film style.
 
+- 배경음 생성 :
+  Genre: Ambient/Cinematic
+Mood: Calm, Bittersweet, Determined
+Instruments: Minimal piano, subtle strings, soft electronic pads
+Tempo: Slow (60-70 BPM)
+Vibe: Early morning, quiet struggle mixed with resolve, 
+      cold atmosphere with subtle melancholy
+Duration: 30 seconds
+
+Style: Atmospheric, introspective, gently melancholic but hopeful
+✅ Add: Subtle sadness, tender emotion
+✅ Keep: Quiet strength, empowering feeling
 
 
 **출력 결과 요약**
-> (한 줄 요약: 예: "도심 야경 배경의 시네마틱 키비주얼 확보")
+> 새벽 도시를 바라보는 남성의 측면 프로필 — 콜드 블루 무드의 시네마틱 키비주얼 및 모션 영상 확보, 공허하고 잔잔한 새벽 BGM 생성
 
 **생성 결과 파일명**
 - 이미지: `scene01_keyvisual.jpg`
-- 비디오: `scene01_motion.mp4`
-- 오디오: `scene01_bgm.wav`
+- 비디오: `scene01_video.mp4`
+- 오디오: `scene01_bgm.mp3`
 
 ---
 
@@ -137,8 +146,7 @@ Cold blue tones only, cinematic, 35mm film style.
 | 카테고리 | 도구명 | 사용 목적 |
 |----------|--------|-----------|
 | 이미지 | Bing Image Creator | 커피를 따르는 손 클로즈업 키비주얼 생성 |
-| 비디오 | Runway Gen-4 Turbo | |
-| 오디오 | Suno | 씬 1 BGM 연속 유지 + 커피 따르는 소리 |
+| 비디오 | Runway Gen-4 Turbo | 김이 피어오르는 시네마틱 영상 확보 |
 
 **입력 프롬프트 (원문)**
 - 이미지 생성 : 
@@ -170,12 +178,11 @@ Steam and pour are the main focus.
 
 
 **출력 결과 요약**
-> (작성)
+> 새벽 창가에서 커피를 따르는 손 클로즈업 — 김이 피어오르는 시네마틱 영상 확보
 
 **생성 결과 파일명**
 - 이미지: `scene02_keyvisual.jpg`
-- 비디오: `scene02_motion.mp4`
-- 오디오: `scene02_bgm.wav`
+- 비디오: `scene02_video.mp4`
 
 ---
 
@@ -193,9 +200,9 @@ Steam and pour are the main focus.
 - 배경: 새벽 도시 스카이라인, 어두운 방, 창문에서만 콜드 블루 빛 유입
 - 텍스트 유무: 있음
 > 0~2초: 텍스트 없음 (정적인 실루엣 유지)
-> 3~5초 : "매일 새벽, 그래도 일어나는 사람들에게." 페이드 인 + MORN 로고 등장
-- ⚠️ **브랜딩 장치**: MORN 로고 + 슬로건 ("매일 새벽, 그래도 일어나는 사람들에게.") 화면 하단 중앙 페이드인
-
+> 3~5초 : MORN 로고 등장
+- ⚠️ **브랜딩 장치**: MORN 로고
+- 
 **내레이션 / 화면 카피**
 > (2초 후 시작) "매일 새벽, 그래도 일어나는 사람들에게. MORN."
 
@@ -203,8 +210,8 @@ Steam and pour are the main focus.
 | 카테고리 | 도구명 | 사용 목적 |
 |----------|--------|-----------|
 | 이미지 | Bing image Creator | 실루엣 후면 키 비주얼 생성 |
-| 비디오 | Runway Gen-4 Turbo | |
-| 오디오 | ElevenLabs | 나레이션 음성 생성 ("매일 새벽, 그래도 일어나는 사람들에게. MORN.") |
+| 비디오 | Runway Gen-4 Turbo | 콜드 블루 톤 시네마틱 영상 확보 |
+| 오디오 | Vrew Ai | 나레이션 음성 생성 ("매일 새벽, 그래도 일어나는 사람들에게. MORN.") |
 
 **입력 프롬프트 (원문)**
 - 이미지 생성 :
@@ -251,30 +258,28 @@ Camera pan is the only camera movement, very slow and smooth.
 Cinematic, 35mm film style, melancholic and quiet mood.
 
 **출력 결과 요약**
-> (작성)
+> 커피잔을 든 채 도시 스카이라인을 바라보는 실루엣 — 콜드 블루 톤 시네마틱 영상 확보, 나레이션('매일 새벽, 그래도 일어나는 사람들에게. MORN.') 생성
 
 **생성 결과 파일명**
 - 이미지: `scene03_keyvisual.png`
-- 비디오: `scene03_motion.mp4`
-- 오디오: `scene03_bgm.wav`
+- 비디오: `scene03_video.mp4`
+- 오디오: `scene03_voice.wav`
 
 ---
 
 ## 5. ⚡ 프롬프트 수정 전/후 기록 (최소 1개 씬 필수)
 
-> 💡 어떤 씬이든 1개 이상 작성하면 됩니다.
-
 ### 씬 (번호) — 프롬프트 개선 로그
 
 | 항목 | 내용 |
 |------|------|
-| **수정 대상 씬** | 씬 번호: |
-| **수정 전 의도** | (처음에 원했던 것) |
-| **수정 전 프롬프트** | (원본 프롬프트) |
-| **문제점** | (어떤 결과가 나왔고 무엇이 문제였는지) |
-| **수정 후 프롬프트** | (개선된 프롬프트) |
-| **수정 이유** | (왜 이렇게 바꿨는지) |
-| **결과 변화** | (수정 후 어떻게 달라졌는지) |
+| **수정 대상 씬** | 씬 번호: 1 |
+| **수정 전 의도** | 어두운 방에서 창문을 바라보는 남자의 새벽 감성 표현 |
+| **수정 전 프롬프트** | "Young man sitting on bed, looking at window, dark room, city view, cinematic" |
+| **문제점** | 	방 안에 불필요한 조명이 생성되거나, 남자가 카메라를 정면으로 바라보는 구도로 나옴. 어두운 분위기가 제대로 표현되지 않음 |
+| **수정 후 프롬프트** | "COMPLETELY DARK ROOM, ZERO artificial lighting, NO lamps, NO ceiling lights... ONLY cold blue light from window" |
+| **수정 이유** | 단순히 "dark"라고만 하면 AI가 임의로 조명을 추가함 → 부정어(NO, ZERO)를 명시적으로 반복해서 조명 제거를 강제함 |
+| **결과 변화** | 인공 조명이 사라지고 창문의 차가운 블루 빛만 남아 의도한 새벽 감성이 표현됨 |
 
 ---
 
@@ -282,19 +287,10 @@ Cinematic, 35mm film style, melancholic and quiet mood.
 
 | 항목 | 내용 |
 |------|------|
-| **파일명** | (예: BrandName_ad_team01.mp4) |
-| **총 길이** | 초 |
-| **해상도** | (예: 1920x1080 / 1280x720) |
-| **프레임레이트** | (예: 30fps) |
+| **파일명** | Morn_AD.mp4 |
+| **총 길이** | 10 초 |
+| **해상도** | 1920x1080 |
+| **프레임레이트** | 60fps |
 | **비디오 코덱** | H.264 |
 | **오디오 코덱** | AAC |
 
----
-
-## 7. 제작 메모 (선택)
-
-> 제작 중 겪은 이슈, 도구 대기열 문제, 크레딧 절약 전략 등 자유롭게 기록하세요.
-
-- (예: Kling 대기열이 길어 Runway로 대체함)
-- (예: 씬 4를 삭제하고 씬 3에 메시지를 통합함)
-- (예: Midjourney --sref로 씬 1~3 스타일 통일함)
